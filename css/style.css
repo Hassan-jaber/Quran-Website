@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--page-background);
+}
+:root{
+    --main-color:#26534C;
+    --alt-color:#F2AC0D;
+    --page-background:#E9E6D7;
+}
+
+/* Start Navbar */
+.logo span{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+.nav-item a{
+    color:  var(--main-color) !important;
+}
+.login-btn{
+    color:var(--main-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+.signup-btn{
+    width: 117px;
+    height: 48px;
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    margin-left: 32px;
+}
+.nav-item .active{
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #556561;
+}
+/* End Navbar */
